@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   source:
-    path: guestbook
+    path: helm-guestbook
     repoURL: https://github.com/cjberzo/argocd-example-apps.git 
     targetRevision: HEAD
   destination:
